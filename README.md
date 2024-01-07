@@ -1,76 +1,606 @@
-<div data-v-5e9078c0=""><h1 data-v-5e9078c0="">Top 51 jQuery interview
-      questions and answers in 2021.</h1> <p data-v-5e9078c0="">
-        You can check all
-        51
-        jQuery interview questions here 👉
-        https://devinterview.io/dev/jquery-interview-questions
-      </p> <br data-v-5e9078c0=""> <div data-v-5e9078c0="" class="unit"><div><h2>🔹 1. What is jQuery?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>jQuery</strong> is <strong>fast, lightweight and feature-rich</strong> client side JavaScript Library/Framework which helps in to traverse HTML DOM, make animations, add Ajax interaction, manipulate the page content, change the style and provide cool UI effect. It is one of the most popular client side library and as per a survey it runs on every second website.  </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="What is jQuery? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 2. What is the use of jquery .each() function?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The <code>$.each()</code> function is used to iterate over a jQuery object. The <code>$.each()</code> function can be used to iterate over any collection, whether it is an object or an array.  </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="What is the use of jquery .each() function? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 3. Can we have multiple document.ready() function on the same page?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>YES</strong>. We can have any number of document.ready() function on the same page.  </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="Can we have multiple document.ready() function on the same page? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 4. What is a CDN?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A content delivery network or content distribution network (CDN) is a large distributed system of servers deployed in multiple data centers across the Internet. The goal of a CDN is to serve content to end-users with high availability and high performance.  </p><p>There are 3 popular jQuery CDNs:</p><ol><li>1. Google.</li><li>2. Microsoft</li><li>3. jQuery.</li></ol><p>Advantages of using CDN:</p><ul><li>It reduces the load from your server.</li><li>It saves bandwidth. jQuery framework will load faster from these CDN.</li><li>The most important benefit is it will be cached, if the user has visited any site which is using jQuery framework from any of these CDN</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="What is a CDN? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 5. Is jQuery replacement of Java Script?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>No.</strong> jQuery is not a replacement of JavaScript. jQuery is a different library which is written on top of JavaScript. jQuery is a lightweight JavaScript library that emphasizes interaction between JavaScript and HTML.  </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="Is jQuery replacement of Java Script? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 6. How do you select element by ID in jQuery?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>To select element use ID selector. We need to prefix the id with "#" (hash symbol). For example, to select element with ID "txtName", then syntax would be,</p><pre><code><span class="token cMod">$</span><span class="token cBase">(</span><span class="token cString">'#txtName'</span><span class="token cBase">)</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="How do you select element by ID in jQuery? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 7. What is jQuery.noConflict?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>As other client side libraries like MooTools, Prototype can be used with jQuery and they also use <code>$()</code> as their global function and to define variables. This situation creates conflict as <code>$()</code> is used by jQuery and other library as their global function. To overcome from such situations, jQuery has introduced <code>jQuery.noConflict()</code>.</p><pre><code>jQuery<span class="token cBase">.</span><span class="token cMod">noConflict</span><span class="token cBase">(</span><span class="token cBase">)</span><span class="token cBase">;</span>
-<span class="token cComment">// Use jQuery via jQuery(...)</span>
-<span class="token cMod">jQuery</span><span class="token cBase">(</span>document<span class="token cBase">)</span><span class="token cBase">.</span><span class="token cMod">ready</span><span class="token cBase">(</span><span class="token cVar">function</span><span class="token cBase">(</span><span class="token cBase">)</span><span class="token cBase">{</span>
-   <span class="token cMod">jQuery</span><span class="token cBase">(</span><span class="token cString">"div"</span><span class="token cBase">)</span><span class="token cBase">.</span><span class="token cMod">hide</span><span class="token cBase">(</span><span class="token cBase">)</span><span class="token cBase">;</span>
-<span class="token cBase">}</span><span class="token cBase">)</span><span class="token cBase">;</span>  </code></pre><p>You can also use your own specific character in the place of <code>$</code> sign in jQuery.</p><pre><code><span class="token cVar">var</span> $j <span class="token cBase">=</span> jQuery<span class="token cBase">.</span><span class="token cMod">noConflict</span><span class="token cBase">(</span><span class="token cBase">)</span><span class="token cBase">;</span>
-<span class="token cComment">// Use jQuery via jQuery(...)</span>
-<span class="token cMod">$j</span><span class="token cBase">(</span>document<span class="token cBase">)</span><span class="token cBase">.</span><span class="token cMod">ready</span><span class="token cBase">(</span><span class="token cVar">function</span><span class="token cBase">(</span><span class="token cBase">)</span><span class="token cBase">{</span>
-   <span class="token cMod">$j</span><span class="token cBase">(</span><span class="token cString">"div"</span><span class="token cBase">)</span><span class="token cBase">.</span><span class="token cMod">hide</span><span class="token cBase">(</span><span class="token cBase">)</span><span class="token cBase">;</span>
-<span class="token cBase">}</span><span class="token cBase">)</span><span class="token cBase">;</span>  </code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="What is jQuery.noConflict? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 8. Is jQuery a library for client scripting or server scripting?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Client side scripting.  </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="Is jQuery a library for client scripting or server scripting? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 9. Is jQuery a W3C standard?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>No. jQuery is not a W3C standard.  </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="Is jQuery a W3C standard? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 10. Why do we use jQuery?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Due to following advantages.</p><ul><li>Easy to use and learn.</li><li>Easily expandable.</li><li>Cross-browser support (IE 6.0+, FF 1.5+, Safari 2.0+, Opera 9.0+)</li><li>Easy to use for DOM manipulation and traversal.</li><li>Large pool of built in methods.</li><li>AJAX Capabilities.</li><li>Methods for changing or applying CSS, creating animations.</li><li>Event detection and handling.</li><li>Tons of plug-ins for all kind of needs.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="Why do we use jQuery? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 11. What does dollar sign ($) means in jQuery?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Dollar Sign is nothing but it's an alias for JQuery. Take a look at below jQuery code.</p><pre><code><span class="token cMod">$</span><span class="token cBase">(</span>document<span class="token cBase">)</span><span class="token cBase">.</span><span class="token cMod">ready</span><span class="token cBase">(</span><span class="token cVar">function</span><span class="token cBase">(</span><span class="token cBase">)</span><span class="token cBase">{</span>
-<span class="token cBase">}</span><span class="token cBase">)</span><span class="token cBase">;</span></code></pre><p>Over here $ sign can be replaced with "jQuery" keyword.</p><pre><code><span class="token cMod">jQuery</span><span class="token cBase">(</span>document<span class="token cBase">)</span><span class="token cBase">.</span><span class="token cMod">ready</span><span class="token cBase">(</span><span class="token cVar">function</span><span class="token cBase">(</span><span class="token cBase">)</span><span class="token cBase">{</span>
-<span class="token cBase">}</span><span class="token cBase">)</span><span class="token cBase">;</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="What does dollar sign ($) means in jQuery? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 12. What is event.PreventDefault?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The <code>event.preventDefault()</code> method stops the default action of an element from happening. For example, Prevents a link from following the URL.  </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="What is event.PreventDefault? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 13. How JavaScript and jQuery are different?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>JavaScript is a language While jQuery is a library built in the JavaScript language that helps to use the JavaScript language.  </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="How JavaScript and jQuery are different? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 14. What is the difference between .js and .min.js?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>jQuery library comes in 2 different versions Development and Production/Deployment. The deployment version is also known as <em>minified</em> version. So .min.js is basically the minified version of jQuery library file. Both the files are same as far as functionality is concerned. but .min.js is quite small in size so it loads quickly and saves bandwidth.  </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="What is the difference between .js and .min.js? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 15. Which is the starting point of code execution in jQuery?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The starting point of jQuery code execution is <code>$(document).ready()</code> function which is executed when DOM is loaded. </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="Which is the starting point of code execution in jQuery? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 16. What does $("div") will select?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>This will select all the div elements on page.  </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="What does $(&quot;div&quot;) will select? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 17. How to select element having a particular class (".selected")?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><code>$('.selected')</code>. This selector is known as class selector. We need to prefix the class name with "." (dot). </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="How to select element having a particular class (&quot;.selected&quot;)? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 18. What does $("div.parent") will select?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>All the div element with parent class.  </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="What does $(&quot;div.parent&quot;) will select? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 19. Is there any difference between body onload() and document.ready() function?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><code>document.ready()</code> function is different from body <code>onload()</code> function for several reasons:</p><ol><li>We can have more than one <code>document.ready()</code> function in a page where we can have only one body <code>onload</code> function.</li><li><code>document.ready()</code> function is called as soon as DOM is loaded where <code>body.onload()</code> function is called when everything gets loaded on the page that includes DOM, images and all associated resources of the page.</li></ol></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="Is there any difference between body onload() and document.ready() function? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 20. How to create clone of any object using jQuery?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>jQuery provides <code>clone()</code> method which performs a deep copy of the set of matched elements, meaning that it copies the matched elements as well as all of their descendant elements and text nodes.</p><pre><code><span class="token cMod">$</span><span class="token cBase">(</span>document<span class="token cBase">)</span><span class="token cBase">.</span><span class="token cMod">ready</span><span class="token cBase">(</span><span class="token cVar">function</span><span class="token cBase">(</span><span class="token cBase">)</span><span class="token cBase">{</span>
-  <span class="token cMod">$</span><span class="token cBase">(</span><span class="token cString">'#btnClone'</span><span class="token cBase">)</span><span class="token cBase">.</span><span class="token cMod">click</span><span class="token cBase">(</span><span class="token cVar">function</span><span class="token cBase">(</span><span class="token cBase">)</span><span class="token cBase">{</span>
-     <span class="token cMod">$</span><span class="token cBase">(</span><span class="token cString">'#dvText'</span><span class="token cBase">)</span><span class="token cBase">.</span><span class="token cMod">clone</span><span class="token cBase">(</span><span class="token cBase">)</span><span class="token cBase">.</span><span class="token cMod">appendTo</span><span class="token cBase">(</span><span class="token cString">'body'</span><span class="token cBase">)</span><span class="token cBase">;</span>
-     <span class="token cVar">return</span> <span class="token cBool">false</span><span class="token cBase">;</span>
-  <span class="token cBase">}</span><span class="token cBase">)</span><span class="token cBase">;</span>
-<span class="token cBase">}</span><span class="token cBase">)</span><span class="token cBase">;</span></code></pre><p>The default implementation of the <code>clone()</code> method doesn't copy events unless you tell the <code>clone()</code> method to copy the events. The <code>clone()</code> method takes a parameter, if you pass true then it will copy the events as well.</p><pre><code><span class="token cMod">$</span><span class="token cBase">(</span>document<span class="token cBase">)</span><span class="token cBase">.</span><span class="token cMod">ready</span><span class="token cBase">(</span><span class="token cVar">function</span><span class="token cBase">(</span><span class="token cBase">)</span><span class="token cBase">{</span>
-   <span class="token cMod">$</span><span class="token cBase">(</span><span class="token cString">"#btnClone"</span><span class="token cBase">)</span><span class="token cBase">.</span><span class="token cMod">bind</span><span class="token cBase">(</span><span class="token cString">'click'</span><span class="token cBase">,</span> <span class="token cVar">function</span><span class="token cBase">(</span><span class="token cBase">)</span><span class="token cBase">{</span>
-     <span class="token cMod">$</span><span class="token cBase">(</span><span class="token cString">'#dvClickme'</span><span class="token cBase">)</span><span class="token cBase">.</span><span class="token cMod">clone</span><span class="token cBase">(</span><span class="token cBool">true</span><span class="token cBase">)</span><span class="token cBase">.</span><span class="token cMod">appendTo</span><span class="token cBase">(</span><span class="token cString">'body'</span><span class="token cBase">)</span><span class="token cBase">;</span>
-  <span class="token cBase">}</span><span class="token cBase">)</span><span class="token cBase">;</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="How to create clone of any object using jQuery? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 21. What is chaining in jQuery?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Chaining is one of the most powerful feature of jQuery. In jQuery, Chaining means to connect multiple functions, events on selectors. It makes your code short and easy to manage and it gives better performance. The chain starts from left to right. So left most will be called first and so on.</p><p>Consider:</p><pre><code><span class="token cMod">$</span><span class="token cBase">(</span>document<span class="token cBase">)</span><span class="token cBase">.</span><span class="token cMod">ready</span><span class="token cBase">(</span><span class="token cVar">function</span><span class="token cBase">(</span><span class="token cBase">)</span><span class="token cBase">{</span>
-    <span class="token cMod">$</span><span class="token cBase">(</span><span class="token cString">'#dvContent'</span><span class="token cBase">)</span><span class="token cBase">.</span><span class="token cMod">addClass</span><span class="token cBase">(</span><span class="token cString">'dummy'</span><span class="token cBase">)</span>
-          <span class="token cBase">.</span><span class="token cMod">css</span><span class="token cBase">(</span><span class="token cString">'color'</span><span class="token cBase">,</span> <span class="token cString">'red'</span><span class="token cBase">)</span>
-          <span class="token cBase">.</span><span class="token cMod">fadeIn</span><span class="token cBase">(</span><span class="token cString">'slow'</span><span class="token cBase">)</span><span class="token cBase">;</span>     
-<span class="token cBase">}</span><span class="token cBase">)</span><span class="token cBase">;</span>​</code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="What is chaining in jQuery? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 22. Which is fast document.getElementByID('txtName') or $('#txtName').?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Native JavaScipt is always fast. jQuery method to select txtName "<code>$('#txtName')</code>" will internally makes a call to <code>document.getElementByID('txtName')</code>. As jQuery is written on top of JavaScript and it internally uses JavaScript only so JavaScript is always fast.  </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="Which is fast document.getElementByID('txtName') or $('#txtName').? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 23. What is the difference between event.PreventDefault and event.stopPropagation?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><ul><li><code>event.preventDefault()</code>: Stops the default action of an element from happening.  </li><li><code>event.stopPropagation()</code>: Prevents the event from bubbling up the DOM tree, preventing any parent handlers from being notified of the event. For example, if there is a link with a click method attached inside of a DIV or FORM that also has a click method attached, it will prevent the DIV or FORM click method from firing.  </li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="What is the difference between event.PreventDefault and event.stopPropagation? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 24. What is the difference between parent() and parents() methods in jQuery?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The basic difference is the <code>parent()</code> function travels only one level in the DOM tree, where <code>parents()</code> function search through the whole DOM tree.  </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="What is the difference between parent() and parents() methods in jQuery? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 25. What is the difference between jquery.size() and jquery.length?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>jQuery <code>.size()</code> method returns number of element in the object. But it is not preferred to use the <code>size()</code> method as jQuery provide <code>.length</code> property and which does the same thing. But the <code>.length</code> property is preferred because it does not have the overhead of a function call.  </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="What is the difference between jquery.size() and jquery.length? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 26. What is difference between prop and attr?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><code>attr()</code>: Get the value of an attribute for the first element in the set of matched elements. Whereas, <code>.prop()</code>: (Introduced in jQuery 1.6) Get the value of a property for the first element in the set of matched elements.  </p><p>Attributes carry additional information about an HTML element and come in name="value" pairs. Where Property is a representation of an attribute in the HTML DOM tree. once the browser parse your HTML code ,corresponding DOM node will be created which is an object thus having properties.  </p><p><code>attr()</code> gives you the value of element as it was defines in the html on page load. It is always recommended to use <code>prop()</code> to get values of elements which is modified via javascript/jquery , as it gives you the original value of an element's current state. Find out more <a href="http://techbrij.com/jquery-attr-vs-prop-difference">here</a>. </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="What is difference between prop and attr? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 27. What is the difference between eq() and get() methods in jQuery?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><ul><li><code>eq()</code> returns the element as a jQuery object. This method constructs a new jQuery object from one element within that set and returns it. That means that you can use jQuery functions on it.  </li><li><code>get()</code> return a DOM element. The method retrieve the DOM elements matched by the jQuery object. But as it is a DOM element and it is not a jQuery-wrapped object. So jQuery functions can't be used.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="What is the difference between eq() and get() methods in jQuery? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 28. What are various methods to make ajax request in jQuery?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Using below jQuery methods, you can make ajax calls.</p><ul><li><code>load()</code> : Load a piece of html into a container DOM</li><li><code>$.getJSON()</code>: Load JSON with GET method.</li><li><code>$.getScript()</code>: Load a JavaScript file.</li><li><code>$.get()</code>: Use to make a GET call and play extensively with the response.</li><li><code>$.post()</code>: Use to make a POST call and don't want to load the response to some container DOM.</li><li><code>$.ajax()</code>: Use this to do something on XHR failures, or to specify ajax options (e.g. cache: true) on the fly.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="What are various methods to make ajax request in jQuery? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 29. When would you use AngularJS vs jQuery?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><ul><li><p><strong>jQuery</strong> - is a library used for DOM Manipulations - Has nothing to do with models - don't have two-way binding feature - becomes complex and difficult to maintain when size of project increases - Sometimes you have to write more code to achieve the same functionality as in Angular</p></li><li><p><strong>Angular</strong> - is a MVVM Framework - Used for creating SPA (Single Page Applications) - Has key features like routing, directives, two way data binding, models, dependency injection, unit tests etc - is modular - Maintainable, when project size increases - is Fast and many more.</p></li></ul><p>Basically jQuery is a single tool (solves one specific problem: dom manipulation) where AngularJS is a whole toolbox with all kind of tools for different problems (routing, modelbindings, dom manipulation, etc.). Actually jqLite (subset of jQuery) is part of the AngularJS and you use it to solve the dom-manipulation thing.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/37638742/angularjs-vs-jquery" rel="noreferrer" target="_blank" title="When would you use AngularJS vs jQuery? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 30. What are selectors in jQuery and how many types of selectors are there?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>To work with an element on the web page, first we need to find them. To find the html element in jQuery we use selectors. There are many types of selectors but basic selectors are:  </p><ul><li>Name: Selects all elements which match with the given element Name.</li><li>#ID: Selects a single element which matches with the given ID</li><li>.Class: Selects all elements which match with the given Class.</li><li>Universal (*): Selects all elements available in a DOM.</li><li>Multiple Elements E, F, G: Selects the combined results of all the specified selectors E, F or G.</li><li>Attribute Selector: Select elements based on its attribute value.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/618484/Latest-jQuery-interview-questions-and-answers" rel="noreferrer" target="_blank" title="What are selectors in jQuery and how many types of selectors are there? Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 31. What are the fastest/slowest selectors in jQuery?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 32. Difference between $(this) and 'this' in jQuery?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 33. What is wrong with this code line "$('#myid\.3').text('blah blah!!!');"</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 34. How jQuery selectors are executed?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 35. What is the difference between event.PreventDefault and "return false"?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 36. Is there any advantage of using $.ajax() for ajax call against $.get() or $.post()?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 37. How do you attach a event to element which should be executed only once?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 38. In what situation you would use multiple version of jQuery and how would you include them?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 39. What is the difference between $('div') and $('
-') in jQuery?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 40. What are the differences between JavaScript's window.onload and jQuery's $(document).ready() method?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 41. How does caching helps and how to use caching in jQuery? </h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 42. Is there any significant difference between event.preventDefault() vs. return false to stop event propagation?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 43. How can I get jQuery to perform a synchronous, rather than asynchronous, Ajax request?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 44. Explain .bind() vs .live() vs .delegate() vs .on()</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 45. What are deferred and promise object in jQuery?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 46. What is the difference between event.stopPropagation and event.stopImmediatePropagation?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 47. Is it possible to hold or delay document.ready execution for sometime?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 48. Is it possible to get value of multiple CSS properties in single statement?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 49. What is the advantage of using protocol less URL while referencing jQuery from CDNs?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 50. How can I implement my own $(document).ready functionality without using jQuery?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 51. Can we execute/run multiple Ajax request simultaneously in jQuery? If yes, then how?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/jquery-interview-questions">all 51 answers</a></div> <br><br></div> <div data-v-5e9078c0="" class="end"></div> <br data-v-5e9078c0="">
-      Thanks 🙌 for reading and good luck on your next tech interview!
-      <br data-v-5e9078c0="">
-      Explore 3800+ dev interview question here 👉
-      <a data-v-5e9078c0="" href="https://devinterview.io/">Devinterview.io</a></div>
+# 100 Fundamental jQuery Interview Questions
+
+<div>
+<p align="center">
+<a href="https://devinterview.io/questions/web-and-mobile-development/">
+<img src="https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/github-blog-img%2Fweb-and-mobile-development-github-img.jpg?alt=media&token=1b5eeecc-c9fb-49f5-9e03-50cf2e309555" alt="web-and-mobile-development" width="100%">
+</a>
+</p>
+
+#### You can also find all 100 answers here 👉 [Devinterview.io - jQuery](https://devinterview.io/questions/web-and-mobile-development/jquery-interview-questions)
+
+<br>
+
+## 1. What is _jQuery_ and what is it primarily used for?
+
+**jQuery** serves as a fast, compact, and feature-rich JavaScript library. It simplifies the handling of HTML documents, event handling, and animation.
+
+### Core Features and Use Cases
+
+- **DOM Manipulation**: jQuery makes DOM element selection, manipulation, and traversal more intuitive and robust than vanilla JavaScript.
+
+- **Cross-Browser Compatibility**: It offers consistent behavior across different browsers, abstracting underlying variations.
+
+- **AJAX**: For asynchronous data exchanges, jQuery streamlines tasks like making HTTP requests and handling server responses.
+
+- **Event Handling and Propagation**: jQuery provides a unified event model that ensures effective event delegation and management.
+
+- **Effects and Animations**: It simplifies intricate visual effects and animations, elevating the interactivity and visual appeal of web applications.
+
+- **Utilities**: jQuery also includes a variety of built-in utilities, easing tasks such as data management, error handling, and more.
+
+### Code Example: jQuery vs. Vanilla JS
+
+Here is the **jQuery** code:
+
+```javascript
+// jQuery
+$('#myDiv').text('Hello, jQuery!');
+```
+
+Here is the equivalent **Vanilla JS** code:
+
+```javascript
+// Vanilla JS
+document.getElementById('myDiv').textContent = 'Hello, Vanilla JavaScript!';
+```
+<br>
+
+## 2. How can you include _jQuery_ in a web page?
+
+To include **jQuery** in your web page, you generally have three options that involve both local and global content delivery networks (CDN), as well as a direct download.
+
+### Import from Global CDN
+
+Add the following code inside your HTML `head` section:
+
+```html
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+```
+
+This method offers easy access to the latest jQuery version. However, it necessitates an internet connection and is subject to the host's uptime and CDN load latency.
+
+### Include from Local CDN
+
+You can host the jQuery library on your server and refer to it using a relative link. Here's the example code:
+
+```html
+<script src="/path-to-jquery/jquery-3.6.0.min.js"></script>
+```
+
+### Direct Download and Manual Inclusion
+
+This method involves downloading the jQuery library directly, saving it in your project folder, and linking it from there. Here's the sample HTML code:
+
+```html
+<script src="path-to/jquery-3.6.0.min.js"></script>
+```
+
+This method gives you more control over the jQuery library version but requires manual updates. Keep in mind that the file path in the `src` attribute here is relative to the HTML file location.
+<br>
+
+## 3. What is the difference between _jQuery_ and _JavaScript_?
+
+While **jQuery** and **JavaScript** share some common features, there are notable distinctions in terms of their purpose, capabilities, and syntax.
+
+### Core Distinctions
+
+1. **Use-Cases**:
+    - jQuery: Efficient DOM traversal and manipulation, cross-browser compatibility, and simplification of common JavaScript tasks.
+    - JavaScript: A versatile, full-fledged programming language for web development, server-side scripting, and more.
+
+2. **Syntax Style**:
+    - jQuery: Emphasizes method chaining and a more concise, streamlined syntax.
+    - JavaScript: Offers more flexibility and a traditional syntax style.
+
+3. **Operating Environment**:
+    - jQuery: Primarily designed to operate within web browsers.
+    - JavaScript: A more general-purpose language, often used in server-side environments through platforms like Node.js.
+
+### Key Features and Differences
+
+- **DOM Manipulation**:
+  - jQuery: Uses a set of methods like `.append()` and `.remove()` to simplify DOM manipulation.
+  - JavaScript: Provides a comprehensive DOM API that allows you to manipulate HTML elements, attributes, and styles.
+
+- **Event Handling**:
+  - jQuery: Offers event handling shortcuts like `.click()` and `.on()` to attach handlers.
+  - JavaScript: Utilizes methods like `.addEventListener()` for event delegation.
+
+- **Syntax Styles**:
+  - jQuery: Commonly seen with `$()` selector notation and method chaining.
+  - JavaScript: Employs dot notation for object properties and more linear function calling.
+
+### Code Example: Event Handling
+
+Here is the JavaScript code:
+
+```javascript
+// JavaScript
+document.getElementById('myButton').addEventListener('click', function() {
+    console.log('Button clicked.');
+});
+```
+
+Here is the equivalent jQuery code:
+
+```javascript
+// jQuery
+$('#myButton').on('click', function() {
+    console.log('Button clicked.');
+});
+```
+<br>
+
+## 4. How do you check if the _DOM_ is fully loaded using _jQuery_?
+
+Using **jQuery**, you can ensure the DOM is fully loaded before executing JavaScript. Combine the `ready()` method with a self-invoking function for reliability.
+
+### Best Practice: Wait for DOM with `ready()`
+
+The `ready()` method ensures the execution of JavaScript after the DOM is fully loaded, providing a better user experience.
+
+Here is the code:
+
+```javascript
+// Using ready()
+$(document).ready(function() {
+    // DOM is fully loaded
+});
+```
+
+### Stricter Approach with IIFE
+
+You can further ensure that the DOM is indeed ready by combining an Immediately-Invoked Function Expression (IIFE) with the `$` alias in a modular way.
+
+Here is the code:
+
+```javascript
+// Using an IIFE
+(function($) {
+    // DOM is fully loaded
+})(jQuery);
+```
+<br>
+
+## 5. Explain the `$` symbol in _jQuery_.
+
+The **dollar sign (`$`)** in **jQuery** functions as a **shorthand for the `jQuery` object**, making the code more concise and readable.
+
+### Historical Context
+
+In the early days of web development, browsers had inconsistent and cumbersome APIs. This hurdle inspired many developers to create frameworks to simplify things. **jQuery** was one such gem, released way back in 2006.
+
+Recognizing that selecting HTML elements was a frequent task, the creators provided a shortcut: the **`$` function** could be used instead of the verbose `jQuery` function.
+
+### Key Takeaways
+
+- **Versatile Function**: The `$` or `jQuery` functions can serve multiple purposes, from selecting DOM elements to facilitating AJAX requests.
+- **Global vs. Local Scope Considerations**: When used responsibly, `$` can exist in both global and local scopes. However, to avoid conflicts, it's commonly advised to keep it in the local scope, often within a **ready event handler** or an **Immediately Invoked Function Expression** (IIFE).
+- **Reassigning Caution**: While you can reassign `$` to another object or function, this practice should be approached with thoughtfulness to prevent confusion and potential issues in larger projects.
+
+### Code Example: Basic jQuery Usage
+
+Here's a simple demonstration of using the `$` function to select all `button` elements and attach a click event:
+
+```javascript
+$(document).ready(function() {
+  $('button').click(function() {
+    // Handle the button click
+  });
+});
+```
+
+### Code Example: Using IIFE to Ensure Local Scope
+
+In larger projects or to avoid conflicts, you can enclose the `$` shorthand within an **Immediately Invoked Function Expression**, safeguarding its local scope:
+
+```javascript
+(function($) {
+  // Now $ is a local variable
+  $(document).ready(function() {
+    $('button').click(function() {
+      // Handle the button click
+    });
+  });
+})(jQuery);
+```
+<br>
+
+## 6. What is the significance of the `document.ready()` function?
+
+The `jQuery `**`document.ready()`** function is essential for ensuring that your JavaScript code runs after the DOM has loaded. This early initialization helps avoid issues with code accessing elements that haven't loaded yet.
+
+### Order of Operations
+
+Without `$(document).ready()`, any code that tries to manipulate or interact with the DOM might fail if the related elements aren't fully available.
+
+- **DOM Element Selection**: Attempting to select elements using jQuery or by their ID or class can be problematic if they haven't been loaded. The `$(document).ready()` mechanism ensures that these selections occur only after the DOM is ready.
+  
+- **Event Binding**: Code that attaches event listeners to DOM elements or specific browser events won't function as intended without the `ready()` check.
+  
+- **DOM Manipulation**: Calls to modify the DOM (such as adding or removing elements) are generally unreliable before the DOM is fully loaded without `ready()`.
+
+### Web Performance Benefits
+
+Using `$(document).ready()` also reinforces **best practices in web design** that can lead to more efficient websites:
+  
+- **Resource Loading**: Delaying the execution of non-critical JavaScript until the DOM is ready can improve the initial rendering speed of a webpage.
+  
+- **User Experience**: By ensuring that the initial page interaction is smooth and error-free, **user experience** is enhanced.
+
+### Code Example: Without `ready()`
+
+Here's how code might behave without `document.ready()` when elements aren't fully loaded:
+
+```javascript
+// This code might misbehave if the DOM isn't ready yet
+$('.my-element').css('color', 'red');
+
+// This event attachment could fail if #my-button isn't loaded yet
+$('#my-button').on('click', function() {
+  console.log('Button clicked!');
+});
+```
+
+### Code Example: With `$(document).ready()`
+
+Here is the revised code utilizing `ready()`
+ 
+```javascript
+// Using $(document).ready ensures these operations occur only after the DOM is fully loaded
+
+$(document).ready(function() {
+  // Safely manipulate elements after the DOM is loaded
+  $('.my-element').css('color', 'red'); 
+
+  // Attach events after the DOM is ready
+  $('#my-button').on('click', function() {
+    console.log('Button clicked!');
+  });
+});
+```
+<br>
+
+## 7. How would you select an element with a specific _ID_ using _jQuery_?
+
+To select an HTML element with a specific **ID** using **jQuery**, you need to use the `#` character.
+
+The ID selector in jQuery is a variation of the same method employed by **CSS**: it uses a `#` followed by the **unique** ID of the element.
+
+### Code Example: jQuery ID Selector
+
+Here is the jQuery code:
+
+```javascript
+// Selects the element with the ID "myElement"
+$('#myElement').css('color', 'red');
+```
+
+### Knowledge Check
+
+- Why should IDs be unique in a document?
+- How does the `#` character enable the selection of unique IDs in jQuery?
+<br>
+
+## 8. What is _chaining_ in _jQuery_ and how does it work?
+
+**Chaining** in jQuery refers to a powerful technique where multiple methods are applied to the same set of elements in a single line of code. This results in a sequence of actions being performed consistently and efficiently.
+
+### Chaining in Action
+
+Let's use a simple example to illustrate how chaining works. Consider an HTML file with a `<button>` element.
+
+```html
+<button id="myButton">Click me!</button>
+```
+
+Here's how you might implement the jQuery chain to, say, first hide the button and then attach a click event that triggers an alert and `slideToggle()` to show/hide the button.
+
+#### jQuery Chaining
+
+```javascript
+$('#myButton').hide().click(function() {
+  alert('Button clicked!');
+}).show();
+```
+
+#### Equivalent Non-Chained Code
+
+The same operations, without chaining, would look like this:
+
+```javascript
+var btn = $('#myButton');  // Store reference to the button
+btn.hide();               // Hide the button
+btn.click(function() {    // Add click event handler
+  alert('Button clicked!');
+});
+btn.show();               // Show the button
+```
+
+### Benefits
+
+- **Readability**: Chained methods often make your code more readable, with a clear sequence of actions on a set of elements.
+  
+- **Maintainability**: Chains are easier to maintain and modify, especially for tasks involving a set of common actions on the same elements.
+  
+- **Performance**: Chaining, in most cases, is more performant than non-chaining. It doesn't require re-selection of elements, and the browser doesn't need to update the DOM after each individual operation.
+
+### Practical Tips
+
+- **Mind Method Output**: Ensure each method in the chain returns the expected output for successful chaining.
+
+- **Consider Line Length**: While chaining can make code more compact, excessive chaining or complex operations in a chain can make the code hard to read.
+
+- **Semantic Meaning**: It's essential to ensure the combined methods in the chain make sense in the order they are used. Sometimes, a sequence of methods might make more semantic sense if broken into easily understandable steps.
+
+- **Potential for Errors**: If you aren't familiar with the exact behavior of each method when used in a chain, it might lead to unexpected results.
+
+### Best Practices
+
+- **Use What Makes Sense**: Not every action needs to be part of a chain. Breaking chains into distinct steps if it improves clarity and readability can be beneficial.
+
+- **Group Similar Actions**: If you are performing a series of related or dependent operations on a set of elements, it often makes sense to group them into a single chain.
+
+- **Reusability and Flexibility**: While chaining can lead to efficient code, you might sometimes want to refrain from chaining to improve reusability, testability, or debugging.
+
+### Common Pitfalls
+
+- **Ambiguity**: Chain termination or changes in chain context can render the code ambiguous, leading to unexpected results.
+
+- **Code Bloat**: Over-reliance on chaining or writing longer chains than necessary can increase code complexity and reduce readability.
+
+### Real-World Applications
+
+Many popular websites and web applications utilize jQuery to streamline front-end development. Chaining offers a way to execute multiple actions efficiently, contributing to a better and more responsive user experience. However, as web technologies evolved, direct DOM manipulation and performance considerations often favor more modern approaches like direct DOM manipulation (with vanilla JavaScript) or the use of more advanced libraries/frameworks such as React and Vue.
+<br>
+
+## 9. Explain the concept of _selectors_ in _jQuery_. Provide examples.
+
+**Selectors** in jQuery let you target specific HTML elements, like `div`, `p` or CSS classes, for operations like manipulation and event handling.
+
+### How Selectors Work
+
+When you make a selection using a jQuery method such as `$('selector')`, the method builds a set of matched elements based on your selector.
+
+### Common Selector Types
+
+- **Basic**: Use the element name, class, or ID.
+  - **Example**: `$('div')`, `$('.myClass')`, `$('#myId')`
+
+- **Attribute**: Pick elements based on their attributes.
+  - **Example**: `$('input[type="text"]')`
+
+- **Hierarchical**: Select based on parent-child or ancestor relationships.
+  - **Example**: `$('ul li')`, `$('div > span')`
+
+- **Pseudo-Classes**: Match elements based on state or position in a collection.
+  - **Example**: `$('form :input')`, `$('p:first')`
+
+- **Pseudo-Elements**: Select role-based distinguishing elements.
+  - **Example**: `$('p:even')`
+
+### The Sizzle Selector Engine
+
+Most jQuery methods employ the "Sizzle" selector engine, allowing for complex jQuery-style selectors.
+
+For example, `$('div > p:first-child')` selects all the first child `p` elements under a div.
+<br>
+
+## 10. How do you select elements by _class name_ in _jQuery_?
+
+To select **HTML elements by class name** using jQuery, you need to:
+
+1. Set the class name as the selector.
+2. Utilize `.text()` or `.append()` to verify the selection.
+
+Let's see the code:
+
+### The jQuery Way
+
+In jQuery, you can select elements using a class selector, which is preceeded by a period `.`. Here is sample HTML:
+
+```html
+<div class="container">
+  <div class="item red">Red Item</div>
+  <div class="item">Default Item</div>
+  <div id="output"></div>
+</div>
+```
+
+And here is the jQuery to select elements:
+
+```javascript
+// Select elements with the 'red' class
+var redItems = $(".red");
+
+// Output the number of selected items
+$("#output").text("Found " + redItems.length + " red items.");
+
+// Also output the text content of each selected item
+redItems.each(function() {
+  $("#output").append("<p>" + $(this).text() + "</p>");
+});
+```
+
+### CSS Equivalent
+
+The jQuery selection method `$(".red")` is equivalent to the following CSS:
+
+```css
+.red {
+  /* Selects elements with the class 'red' */
+}
+```
+<br>
+
+## 11. How would you select all `p` elements inside a `div`?
+
+You can use CSS-based selectors like `div p` with jQuery to **retrieve all paragraphs** contained within a `div`:
+
+### jQuery Code
+
+```javascript
+// Method 1: Using find()
+let paragraphs = $('div').find('p');
+
+// Method 2: Using context
+let paragraphs = $('p', 'div');
+```
+<br>
+
+## 12. How can you select multiple elements with different _IDs_ at once?
+
+To select multiple elements with different `IDs` in **jQuery**, you can either create a chain of selectors or select them based on a common class using `$('[class="yourClass"]').filter(...)`. The former is simpler and more straightforward.
+
+### Chained Selectors
+
+By chaining selectors using the ',' symbol:
+
+```javascript
+$('#first, #second, #third').css('color', 'red'); // Selects elements with IDs "first", "second", and "third"
+```
+
+### `.filter()`
+
+This method combines `$('[class="yourClass"]')` with `.filter()` to restrict the selection to specific ID values:
+
+```javascript
+$('[class="yourClass"]').filter('#first, #second, #third').css('color', 'red');
+```
+<br>
+
+## 13. Describe how to get and set _attribute_ values using _jQuery_.
+
+In **jQuery**, you can access and modify HTML attributes using the `.attr()` method. This function is versatile, allowing you to perform various actions. 
+
+### Attribute Manipulation
+
+#### Basics
+
+- **Get**: Provide the attribute name to retrieve its value. If you select multiple elements, it returns the attribute value from the first element.
+
+- **Set**: Specify the attribute name and the new value. You can also use a callback function to generate the new value based on the current one.
+
+    ```javascript
+    // Get 'title' attribute value of the first 'img' element
+    let title = $("img").attr("title");
+    
+    // Set 'title' attribute for all 'img' elements
+    $("img").attr("title", "Amazing Image");
+
+    // Use a callback to update the 'src' attribute
+    $("img").attr("src", function(i, val) {
+        return `newPath/image${i}.jpg`;
+    });
+
+    ```
+
+#### Removal
+
+To remove an attribute, pass **null** as the value inside `.attr()`.
+
+```javascript
+// Remove 'title' attribute from all <img> elements
+$("img").attr("title", null);
+```
+
+### Code Example: List Styles Toggler
+
+Here is the JavaScript code:
+
+```javascript
+$(document).ready(function() {
+    $(".toggle-list-styles").click(function() {
+        $("ul").attr("style", function(ind,oldVal) {
+            return (oldVal == "list-style-type: none;" ? "list-style-type: disc;" : "list-style-type: none;");
+        });
+    });
+});
+```
+
+This code will set or remove the list style attribute when a toggle button is clicked.
+<br>
+
+## 14. How can you add, remove, or toggle class names on an element in _jQuery_?
+
+In jQuery, class manipulation methods can add, remove or toggle CSS classes dynamically.
+
+### jQuery Methods for Class Manipulation
+
+- **.addClass()**: Add one or multiple classes.
+- **.removeClass()**: Remove one, multiple, or all classes.
+- **.toggleClass()**: Toggle one or more classes based on a flag.
+- **.hasClass()**: Check if a specific class is already applied.
+
+### Core Concepts in jQuery Class Handling
+
+- **Method Chaining**: jQuery methods can be chained together for compact, easier-to-read code.
+- **Callback Functions**: These methods support optional callback functions.
+- **Class List Handling ([.addClass(<callable>)](https://api.jquery.com/addClass/))**: The methods can also accept a callable function that **returns** a space-separated list of classes.
+
+### Code Example: jQuery Class Manipulation
+
+Here is the JavaScript code:
+
+  ```html
+  <html>
+  <head>
+    <style>
+        .highlighted {
+            background-color: yellow;
+        }
+    </style>
+  </head>
+  <body>
+
+  <p id="demo" class="intro">This is a paragraph.</p>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+      // Method Chaining
+      $('#demo').removeClass('intro').addClass('highlighted').text('This paragraph is highlighted!');
+  </script>
+  </body>
+  </html>
+  ```
+
+In this example, the code removes the class `intro`, adds the class `highlighted`, and then sets the text, all in a single line.
+<br>
+
+## 15. What are _jQuery_ filters and how do you use them?
+
+**jQuery filters** are a set of methods used to **select specific elements** based on pre-defined criteria or their current state.
+
+#### Common Filter Methods
+
+- **`:first` and `:last`**: Selects the first or last matched element.
+  ```javascript
+  $('div:first').addClass('highlight');
+  ```
+
+- **`$()`**: A multi-purpose method for DOM manipulation. With selectors, it's often used to create new jQuery collections.
+  ```javascript
+  let paragraph = $("<p>Some text</p>");
+  ```
+
+- **`.add()`**: Adds elements to the existing collection.
+
+- **`.slice()`**: Subsets the current collection.
+
+- **`.filter()`**: Reduces the set of matched elements to those that match the selector or pass the function's test.
+
+- **`.not()`**: Removes elements from the set of matched elements.
+<br>
+
+
+
+#### Explore all 100 answers here 👉 [Devinterview.io - jQuery](https://devinterview.io/questions/web-and-mobile-development/jquery-interview-questions)
+
+<br>
+
+<a href="https://devinterview.io/questions/web-and-mobile-development/">
+<img src="https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/github-blog-img%2Fweb-and-mobile-development-github-img.jpg?alt=media&token=1b5eeecc-c9fb-49f5-9e03-50cf2e309555" alt="web-and-mobile-development" width="100%">
+</a>
+</p>
+
